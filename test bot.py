@@ -29,5 +29,5 @@ async def on_message(message):
        msg = message.content[23:]
        await message.author.send(msg)
 
-access_token = os.environ["BOT_TOKEN"]
+access_token = os.environ['BOT_TOKEN']
 client.run(access_token)
